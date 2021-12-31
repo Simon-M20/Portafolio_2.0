@@ -277,11 +277,11 @@ button.main__button > span > span, .main__projects article div figure span.anima
 }
 
 .main__about h2::before {
-    content: "🗲 Why me ? 🗲";
+    content: "⚡ Why me ? ⚡";
     position: absolute;
     height: 100%;
     width: 100%;
-    font-size: 3rem;
+    font-size: 2.3rem;
     opacity: .05;
     left: 0;
     top: -10px;
@@ -289,11 +289,11 @@ button.main__button > span > span, .main__projects article div figure span.anima
 }
 
 .main__skills h2::before {
-    content: "🗲 Main Skills 🗲";
+    content: "⚡ Main Skills ⚡";
     position: absolute;
     height: 100%;
     width: 100%;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     opacity: .05;
     left: 0;
     top: -10px;
@@ -301,11 +301,11 @@ button.main__button > span > span, .main__projects article div figure span.anima
 }
 
 .main__services h2::before {
-    content: "🗲 Services 🗲";
+    content: "⚡ Services ⚡";
     position: absolute;
     height: 100%;
     width: 100%;
-    font-size: 3rem;
+    font-size: 2.3rem;
     opacity: .05;
     left: 0;
     top: -10px;
@@ -362,11 +362,11 @@ button.main__button > span > span, .main__projects article div figure span.anima
 }
 
 .main__projects h2::before {
-    content: "🗲 Portafolio 🗲";
+    content: "⚡ Portafolio ⚡";
     position: absolute;
     height: 100%;
     width: 100%;
-    font-size: 3rem;
+    font-size: 2.2rem;
     opacity: .05;
     left: 0;
     top: -10px;
@@ -374,8 +374,8 @@ button.main__button > span > span, .main__projects article div figure span.anima
 }
 
 .main__projects .project-img {
-    width: 300px;
-    height: 430px;
+    width: 280px;
+    max-height: 430px;
     overflow-y: scroll;
     transition: all .2s ease-in;
 }
@@ -390,13 +390,21 @@ button.main__button > span > span, .main__projects article div figure span.anima
 }
 
 .main__projects .slide-info {
-    background-color: #fff;
+    background-color: #f2f2f2;
     color: #000;
+}
+
+.main__projects .slide-info:hover {
+    background-color: #fff;
 }
 
 .main__projects .slide-info.dark-mode {
     background-color: #333;
     color: #fff;
+}
+
+.main__projects .slide-info:hover.dark-mode {
+    background-color: #444;
 }
 
 .link-icon {
@@ -555,7 +563,7 @@ span.dark-span.is-active {
 /**/
 
 .main__contact h2::before {
-    content: "🗲 Contact 🗲";
+    content: "⚡ Contact ⚡";
     position: absolute;
     height: 100%;
     width: 100%;
@@ -662,7 +670,7 @@ small#message {
 /**/
 
 .footer__info h2::before {
-    content: "🗲 Let's Work! 🗲";
+    content: "⚡ Let's Work! ⚡";
     position: absolute;
     height: 100%;
     width: 100%;
