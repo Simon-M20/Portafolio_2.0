@@ -567,7 +567,7 @@ span.dark-span.is-active {
     position: absolute;
     height: 100%;
     width: 100%;
-    font-size: 3rem;
+    font-size: 2.3rem;
     opacity: .05;
     left: 0;
     top: -10px;
@@ -674,7 +674,7 @@ small#message {
     position: absolute;
     height: 100%;
     width: 100%;
-    font-size: 3rem;
+    font-size: 2rem;
     opacity: .05;
     left: 0;
     top: -10px;
