@@ -282,7 +282,7 @@ button.main__button > span > span, .main__projects article div figure span.anima
     height: 100%;
     width: 100%;
     font-size: 2.3rem;
-    opacity: .05;
+    opacity: .2;
     left: 0;
     top: -10px;
     z-index: -1;
@@ -294,7 +294,7 @@ button.main__button > span > span, .main__projects article div figure span.anima
     height: 100%;
     width: 100%;
     font-size: 2.3rem;
-    opacity: .05;
+    opacity: .2;
     left: 0;
     top: -10px;
     z-index: -1;    
@@ -306,7 +306,7 @@ button.main__button > span > span, .main__projects article div figure span.anima
     height: 100%;
     width: 100%;
     font-size: 2.3rem;
-    opacity: .05;
+    opacity: .2;
     left: 0;
     top: -10px;
     z-index: -1;    
@@ -367,7 +367,7 @@ button.main__button > span > span, .main__projects article div figure span.anima
     height: 100%;
     width: 100%;
     font-size: 2.2rem;
-    opacity: .05;
+    opacity: .2;
     left: 0;
     top: -10px;
     z-index: -1;    
@@ -568,7 +568,7 @@ span.dark-span.is-active {
     height: 100%;
     width: 100%;
     font-size: 2.3rem;
-    opacity: .05;
+    opacity: .2;
     left: 0;
     top: -10px;
     z-index: -1;  
@@ -675,7 +675,7 @@ small#message {
     height: 100%;
     width: 100%;
     font-size: 2rem;
-    opacity: .05;
+    opacity: .2;
     left: 0;
     top: -10px;
     z-index: -1;  
