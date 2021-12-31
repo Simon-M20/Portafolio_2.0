@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Simón Moreno" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simón Moreno | Frontend Dev</title>
+    <link rel="stylesheet" href="CSS/hamburgers.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="Img/Developer.svg" type="image/x-icon">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Material Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FontAwesome Icon Kit -->
+    <script src="https://kit.fontawesome.com/a5cb44e5e5.js" crossorigin="anonymous"></script>
+    <!-- Swiper Js (CSS) CDN -->
+    <link
+      rel="stylesheet"
+        href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <!-- SweetAlert.js CDN -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body data-dark="">
+
+    <header class="flex justify-between items-center md:w-4/5 w-11/12 mx-auto p-2 border-b">
+        <section class="header__logo">
+            <p class="font-extrabold text-2xl">Simón <span style="color: #64ff01;">Moreno</span> 🚀</p>
+        </section>
+        <nav class="header__menu" data-dark="">
+            <ul>
+                <li class="menu-link"><a href="#">Home</a></li>
+                <li class="menu-link"><a href="#why_me_?">Why me ?</a></li>
+                <li class="menu-link"><a href="#Services">Services</a></li>
+                <li class="menu-link"><a href="#Portafolio">Portafolio</a></li>
+                <li class="shadow-md hover:shadow-lg menu-link">
+                    <a class="flex justify-center items-center" href="#Contact">
+                        <span class="material-icons mr-2">
+                            message
+                        </span> Contact me
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <article class="relative flex justify-center items-center">
+            <section class="relative mt-1  mr-14">
+                <div class="dark-button">
+                    <input type="checkbox" name="" id="dark__checkbox">
+                    <span class="dark-span">☀️</span>
+                </div>
+            </section>
+            <button class="hamburger hamburger--emphatic menu-btn" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </article>
+    </header>
+
+    <main>
+        <section class="md:w-4/5 md:px-0 px-2 mx-auto flex flex-wrap justify-center items-center lg:py-16 pt-24">
+            <article class="lg:w-1/2 lg:text-left text-center">
+                <div class="flex justify-center lg:justify-start items-center">
+                    <span class="span__line mr-3"></span>
+                    <h1 class="lg:text-3xl text-2xl font-semibold main__h1">Hello 👋🏼 Its
+                        <span class="font-bold" style="color: #64ff01;">Simón
+                            Moreno</span>
+                    </h1>
+                </div>
+                <p class="lg:text-5xl text-4xl font-extrabold pt-2">Frontend Developer</p>
+                <p class="pt-2 text-lg">Of course, there's so much more than just a few fancy titles. Scroll
+                    down and get to know me. |
+                </p>
+                <div class="flex flex-wrap justify-center w-full lg:mt-4 mt-5">
+                    <button
+                        class="main__start flex items-center justify-center shadow-md hover:shadow-lg lg:mr-4 mr-0 lg:my-0 my-2">
+                        <a href="#Contact">
+                            <i class="fas fa-mug-hot mr-2"></i>Let's Work Together
+                        </a>
+                    </button>
+                    <button
+                        class="main__button border px-6 py-2 rounded-lg shadow-md hover:shadow-lg relative lg:ml-4 lg:ml-0 lg:my-0 my-2">
+                        <span class="flex h-3 w-3 absolute -right-1 -top-1.5">
+                            <span
+                                class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-3 w-3"></span>
+                        </span>
+                        <a href="#Portafolio">
+                            View my
+                            Portafolio
+                        </a>
+                    </button>
+                </div>
+            </article>
+            <figure class="lg:w-1/2 lg:p-10 p-12">
+                <img src="Img/Developer.svg" alt="Developer" loading="lazy">
+            </figure>
+        </section>
+
+        <section id="why_me_?" class="main__about py-32">
+            <h2 class="lg:text-4xl text-3xl font-extrabold tracking-wider relative w-full text-center"><i>🗲</i>
+                Why me ?
+                <i>🗲</i>
+            </h2>
+            <article class="flex flex-wrap justify-evenly items-center mt-16">
+                <figure class="p-10 lg:w-1/2">
+                    <img src="Img/programming.svg" alt="Programming" loading="lazy">
+                </figure>
+                <div class="lg:w-1/2">
+                    <p class="leading-relaxed text-justify p-2"><i>🗲</i> Hello There! My name is <span
+                            style="color: #64ff01;">Simón Moreno</span>, and I'm here to help your next project.
+                        I'm a
+                        <span style="color: #64ff01;">Front
+                            End Developer</span>. I
+                        gradued from such courses as: <span style="color: #64ff01;"> FreeiCamp - Responsive Web
+                            Design.</span> At the moment
+                        I
+                        am estudying and diving deeper into web development.
+                    </p>
+                    <p class="leading-relaxed text-justify p-2"><i>🗲</i>Building responsive, mobile-first, friendly, and great user experience websites is my passion. I'm always looking for an opportunity to learn new technology. I enjoy spending my free time increasing my knowledge of Frontend development and working on new projects. Also, fond of creating web application designs and brig to life using i & develops mobile designs.</p>
+                    <!-- <p>I've been interested in frontend development for almost a year. </p> -->
+                </div>
+            </article>
+        </section>
+
+        <section class="main__skills lg:py-24 py-16">
+            <h2 class="lg:text-4xl text-3xl font-extrabold tracking-wider relative w-full text-center">
+                <i>🗲</i> Main Skill's<i>🗲</i>
+            </h2>
+            <article class="flex justify-center flex-wrap items-center mt-16 skillSwiper">
+                <div class="swiper-wrapper">
+                    <figure
+                        class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
+                        <img class="w-1/3" src="Img/HTML.png" alt="HTML" title="HTML ' HyperText Markup Language'" loading="lazy">
+                        <figcaption>
+                            <p class="font-extrabold text-2xl pl-2">HTML</p>
+                            <!-- <p class="hidden">Hyper Text MarkUp Language</p> -->
+                        </figcaption>
+                    </figure>
+                    <figure
+                        class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
+                        <img class="w-1/3" src="Img/CSS.png" alt="CSS" loading="lazy">
+                        <figcaption>
+                            <p class="font-extrabold text-2xl pl-2">CSS</p>
+                            <!-- <p class="hidden">Cascading Style Sheet</p> -->
+                        </figcaption>
+                    </figure>
+                    <figure
+                        class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
+                        <img class="w-1/3" src="Img/JavaScript.png" alt="JavaScript" loading="lazy">
+                        <figcaption>
+                            <p class="font-extrabold text-2xl pl-2">JS</p>
+                            <!-- <p class="hidden">JavaScript</p> -->
+                        </figcaption>
+                    </figure>
+                    <figure
+                        class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
+                        <img class="w-1/3" src="Img/Tailwind.png" alt="Tailwind" loading="lazy">
+                        <figcaption>
+                            <p class="font-extrabold text-2xl pl-2">Tailwind</p>
+                            <!-- <p class="hidden"></p> -->
+                        </figcaption>
+                    </figure>
+                    <figure
+                        class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
+                        <img class="w-1/3" src="Img/Git.png" alt="Git" loading="lazy">
+                        <figcaption>
+                            <p class="font-extrabold text-2xl pl-2">Git</p>
+                            <!-- <p class="hidden"></p> -->
+                        </figcaption>
+                    </figure>
+                    <figure
+                        class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
+                        <img class="w-1/3" src="Img/React.png" alt="React" loading="lazy">
+                        <figcaption>
+                            <p class="font-extrabold text-2xl pl-2">React</p>
+                            <!-- <p class="hidden"></p> -->
+                        </figcaption>
+                    </figure>
+                    <figure
+                        class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
+                        <img class="w-1/3 github" src="Img/Github.png" alt="Github" loading="lazy">
+                        <figcaption>
+                            <p class="font-extrabold text-2xl pl-2">Github</p>
+                            <!-- <p class="hidden"></p> -->
+                        </figcaption>
+                    </figure>
+                </div>
+            </article>
+        </section>
+
+        <section id="Services" class="main__services py-32">
+            <h2 class="lg:text-4xl text-3xl font-extrabold tracking-wider relative w-full text-center"><i>🗲</i> Services <i>🗲</i></h2>
+            <h3 class="mt-2 text-center text-xl">Better design, better experience</h3>
+            <article class="mt-16 flex justify-center mx-auto flex-wrap w-full items-center">
+                <figure class="flex flex-col justify-center items-center border rounded-md py-3 m-3 service-container">
+                    <div class="flex justify-evenly items-center">
+                        <div class="w-20 h-20 rounded-full flex justify-center items-center">
+                            <img class="w-3/5 services-icon" data-dark="" src="Img/Web Design.png" alt="Web Design" loading="lazy">
+                        </div>
+                        <figcaption class="flex justify-center items-center">
+                            <p class="ml-4">Web Design</p>
+                            <span class="material-icons services-info ml-2 mt-1 cursor-pointer">
+                                expand_more
+                            </span>
+                        </figcaption>
+                    </div>
+                    <p class="px-5 pt-2 text-center leading-relaxed content">I build profesional responsive websites optimized fot the most popular search engines. I build up the high performance website with blazing fast speed. </p>
+                </figure>
+
+                <figure class="flex flex-col justify-center items-center border rounded-md py-3 m-3 service-container">
+                    <div class="flex justify-evenly items-center">
+                        <div class="w-20 h-20 rounded-full flex justify-center items-center">
+                            <img class="w-3/5 services-icon" data-dark="" src="Img/User-interface.png" alt="User Experience" loading="lazy">
+                        </div>
+                        <figcaption class="flex justify-center items-center">
+                            <p class="ml-4">User Experience</p>
+                            <span class="material-icons services-info ml-2 mt-1 cursor-pointer">
+                                expand_more
+                            </span>
+                        </figcaption>
+                    </div>
+                    <p class="px-5 pt-2 text-center leading-relaxed content">I do <abbr title="User Experience / User Interface">UI/UX</abbr> design for the website that assists website to get an outstanding look. Unique design creates an unique personality for websites.</p>
+                </figure>
+
+                <figure class="flex flex-col justify-center items-center border rounded-md py-3 m-3 service-container">
+                    <div class="flex justify-evenly items-center">
+                        <div class="w-20 h-20 rounded-full flex justify-center items-center">
+                            <img class="w-3/4 services-icon" data-dark="" src="Img/Seo.png" alt="SEO" loading="lazy">
+                        </div>
+                        <figcaption class="flex justify-center items-center">
+                            <p class="ml-4">SEO</p>
+                            <span class="material-icons services-info ml-2 mt-1 cursor-pointer">
+                                expand_more
+                            </span>
+                        </figcaption>
+                    </div>
+                    <p class="px-5 pt-2 text-center leading-relaxed content">With <abbr title="Search Engine Optimization">SEO</abbr>, your business wants to increase its visibility in search results on search engines. I also provide SEO services to rank your website.</p>
+                </figure>
+                
+                <div>
+                    <!-- <p>I build profesional responsive websites optimized fot the most popular search engines. Following the global trend and create your revolutionary website with the best technologies. Designs in all the screens through which a user will move, and to create the visual elements, and their interactive properties that facilitate this movement</p>
+                    <p></p>
+                    <p>I would love to help you with your desire website project. I'm a hard working and dedicated person. Feel frre to contact me.</p> -->
+                </div>
+            </article>
+            <h3 class="text-2xl text-center mt-16 font-bold uppercase tracking-wide">Let's Work! I'm Available for
+                <span style="color: #64ff01;">Freelance</span>!
+            </h3>
+        </section>
+
+        <section id="Portafolio" class="main__projects py-32">
+            <h2 class="lg:text-4xl text-3xl font-extrabold tracking-wider relative w-full text-center"><i>🗲</i> Portafolio <i>🗲</i></h2>
+            <!-- Slide main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
+                        <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">01</p>
+                        <figure class="project-img">
+                            <img class="lightbox__images" src="Img/Sunnyside landing page.jpg" alt="Sunnyside landing page - Project 1" loading="lazy">
+                        </figure>
+        
+                        <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:left-20 top-0 left-0 shadow-lg rounded-md">
+                            <h4 class="text-2xl font-extrabold tracking-wide">Sunnyside agency landing page</h4>
+                            <p class="leading-relaxed pt-2 pb-3">This is a solution to the Sunnyside agency landing page challenge on <span style="color: #64ff01;">Frontend Mentor</span>.</p>
+                            <figure class="flex justify-start items-start">
+                                <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
+                                <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
+                                <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
+                                <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
+                            </figure>
+        
+                            <figure class="relative w-full flex justify-center items-center">
+                                <a href="https://simon-m20.github.io/Sunnyside_agency_landing_page/" target="_blank" rel="noopener noreferrer">
+                                    <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -left-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
+                                        link
+                                    </span>
+                                </a>
+        
+                                <span class="flex h-3 w-3 absolute left-1 top-1 animate-container">
+                                    <span
+                                        class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
+                                    <span class="relative inline-flex rounded-full h-3 w-3"></span>
+                                </span>
+                            </figure>
+                        </div>
+                    </article>
+
+                    <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
+                        <figure class="project-img">
+                            <img class="lightbox__images" src="Img/ecommerce-product-page.jpg" alt="Ecommerce product age - Project 2" loading="lazy">
+                        </figure>
+                        <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">02</p>
+        
+                        <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:right-20 top-0 right-0 shadow-lg rounded-md">
+                            <h4 class="text-2xl font-extrabold tracking-wide">E-commerce product page</h4>
+                            <p class="leading-relaxed pt-2 pb-3">This is a solution to the E-commerce product page challenge on <span style="color: #64ff01;">Frontend Mentor</span>.</p>
+                            <figure class="flex justify-start items-start">
+                                <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
+                                <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
+                                <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
+                                <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
+                            </figure>
+        
+                            <figure class="relative w-full flex justify-center items-center">
+                                <a href="https://simon-m20.github.io/E-commerce_product_page/" target="_blank">
+                                    <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -right-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
+                                        link
+                                    </span>
+                                </a>
+        
+                                <span class="flex h-3 w-3 absolute -right-10 top-1 animate-container">
+                                    <span
+                                        class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
+                                    <span class="relative inline-flex rounded-full h-3 w-3"></span>
+                                </span>
+                            </figure>
+                        </div>
+                    </article>
+
+                    <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
+                        <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">03</p>
+                        <figure class="project-img">
+                            <img class="lightbox__images" src="Img/easybank-page.jpg" alt="Easybank landing page - Project 3" loading="lazy">
+                        </figure>
+        
+                        <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:left-20 top-0 left-0 shadow-lg rounded-md">
+                            <h4 class="text-2xl font-extrabold tracking-wide">Easybank landing page</h4>
+                            <p class="leading-relaxed pt-2 pb-3">This is a solution to the Easybank landing page challenge on <span style="color: #64ff01;">Frontend Mentor</span>.</p>
+                            <figure class="flex justify-start items-start">
+                                <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
+                                <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
+                                <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
+                                <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
+                            </figure>
+        
+                            <figure class="relative w-full flex justify-center items-center">
+                                <a href="https://simon-m20.github.io/Easybank/" target="_blank">
+                                    <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -left-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
+                                        link
+                                    </span>
+                                </a>
+        
+                                <span class="flex h-3 w-3 absolute left-1 top-1 animate-container">
+                                    <span
+                                        class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
+                                    <span class="relative inline-flex rounded-full h-3 w-3"></span>
+                                </span>
+                            </figure>
+                        </div>
+                    </article>
+
+                    <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
+                        <figure class="project-img">
+                            <img class="lightbox__images" src="Img/Crowdfunding-product-page.jpg" alt="Crowdfunding product page - Project 4" loading="lazy">
+                        </figure>
+                        <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">04</p>
+        
+                        <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:right-20 top-0 right-0 shadow-lg rounded-md">
+                            <h4 class="text-2xl font-extrabold tracking-wide">Crowdfunding product page</h4>
+                            <p class="leading-relaxed pt-2 pb-3">This is a solution to the Crowdfunding product page challenge on <span style="color: #64ff01;">Frontend Mentor</span>.</p>
+                            <figure class="flex justify-start items-start">
+                                <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
+                                <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
+                                <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
+                                <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
+                            </figure>
+        
+                            <figure class="relative w-full flex justify-center items-center">
+                                <a href="https://simon-m20.github.io/Crowdfunding-product-page-main/" target="_blank" rel="noopener noreferrer">
+                                    <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -right-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
+                                        link
+                                    </span>
+                                </a>
+        
+                                <span class="flex h-3 w-3 absolute -right-10 top-1 animate-container">
+                                    <span
+                                        class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
+                                    <span class="relative inline-flex rounded-full h-3 w-3"></span>
+                                </span>
+                            </figure>
+                        </div>
+                    </article>
+
+                    <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
+                        <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">05</p>
+                        <figure class="project-img">
+                            <img class="lightbox__images" src="Img/time-tracking-dashboard.jpg" alt="Time tracking dashboard - Project 5" loading="lazy">
+                        </figure>
+        
+                        <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:left-20 top-0 left-0 shadow-lg rounded-md">
+                            <h4 class="text-2xl font-extrabold tracking-wide">Time tracking dashboard</h4>
+                            <p class="leading-relaxed pt-2 pb-3">This is a solution to the Time tracking dashboard challenge on <span style="color: #64ff01;">Frontend Mentor</span>.</p>
+                            <figure class="flex justify-start items-start">
+                                <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
+                                <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
+                                <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
+                                <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
+                                <img class="w-10 mx-1" src="Img/Json.png" alt="Json icon" title="Json" loading="lazy">
+                            </figure>
+        
+                            <figure class="relative w-full flex justify-center items-center">
+                                <a href="https://simon-m20.github.io/Time_tracking_dashboard/" target="_blank">
+                                    <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -left-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
+                                        link
+                                    </span>
+                                </a>
+        
+                                <span class="flex h-3 w-3 absolute left-1 top-1 animate-container">
+                                    <span
+                                        class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
+                                    <span class="relative inline-flex rounded-full h-3 w-3"></span>
+                                </span>
+                            </figure>
+                        </div>
+                    </article>
+
+                    <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
+                        <figure class="project-img">
+                            <img class="lightbox__images" src="Img/Pixtel.png" alt="Pixtel - Project 6" loading="lazy">
+                        </figure>
+                        <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">06</p>
+        
+                        <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:right-20 top-0 right-0 shadow-lg rounded-md">
+                            <h4 class="text-2xl font-extrabold tracking-wide">Pixtel Digital communication service</h4>
+                            <p class="leading-relaxed pt-2 pb-3">Pixtel, a digital marketing agency that takes you to the next level.</p>
+                            <figure class="flex justify-start items-start">
+                                <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
+                                <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
+                                <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
+                                <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
+                            </figure>
+        
+                            <figure class="relative w-full flex justify-center items-center">
+                                <a href="https://simon-m20.github.io/Pixtel_2.0/" target="_blank" rel="noopener noreferrer">
+                                    <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -right-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
+                                        link
+                                    </span>
+                                </a>
+        
+                                <span class="flex h-3 w-3 absolute -right-10 top-1 animate-container">
+                                    <span
+                                        class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
+                                    <span class="relative inline-flex rounded-full h-3 w-3"></span>
+                                </span>
+                            </figure>
+                        </div>
+                    </article>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+             <!-- Lightbox effect -->
+             <div id="lightbox" class="lightbox">
+                <figure class="lightbox__figure">
+                    <img class="lightbox__img" src="" alt="" loading="lazy">
+                </figure>
+                <i class="fas fa-times text-2xl lightbox__icon"></i>
+            </div>
+            
+        </section>
+
+        <section id="Contact" class="main__contact py-32 relative">
+            <h2 class="lg:text-4xl text-3xl font-extrabold tracking-wider relative w-full text-center"><i>🗲</i> Contact <i>🗲</i></h2>
+
+            <form action="https://formsubmit.co/saimonm0504@gmail.com" method="POST"
+                    class="flex flex-col justify-center items-center mt-10 w-full z-40 relative" id="form-submit">
+                    <div class="flex flex-wrap md:justify-evenly justify-center items-center w-4/5">
+                        <div class="flex flex-col justify-start items-center mt-4 form__input">
+                            <input class="pl-6 pr-20 py-3 rounded focus:outline-none text-black border" type="text" name="name"
+                                autocomplete="off"
+                                title="The Name is not valid, it only accepts letters and blanks"
+                                pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                            <span class="py-3 span__info">Name</span>
+                        </div>
+                        <div class="flex flex-col justify-start items-center mt-4 form__input">
+                            <input class="pl-6 pr-20 py-3 rounded focus:outline-none text-black border" type="text"
+                                name="last-name" autocomplete="off"
+                                title="The Last Name is not valid, it only accepts letters and blanks"
+                                pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                            <span class="py-3 span__info">Last Name</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap md:justify-evenly justify-center items-center w-4/5">
+                        <div class="flex flex-col justify-start items-center mt-4 form__input">
+                            <input class="pl-6 pr-20 py-3 rounded focus:outline-none text-black border" type="email"
+                                name="email" title="Invalid Email"
+                                pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+                                autocomplete="off" required>
+                            <span class="py-3 span__info">Email</span>
+                        </div>
+                        <div class="flex flex-col justify-start items-center mt-4 form__input">
+                            <input class="pl-6 pr-20 py-3 rounded focus:outline-none text-black border" type="tel" name="phone"
+                                autocomplete="off" title="Invalid phone number" required>
+                            <span class="py-3 span__info">Phone Number</span>
+                        </div>
+                    </div>
+                    <div class="w-full flex justify-center items-center mt-8">
+                        <div class="flex flex-col items-center justify-center form__input">
+                            <textarea name="message" class="focus:outline-none text-black p-5 rounded border" cols="70" title="Your message must not exceed 255 characters" data-pattern="^.{1,255}$"
+                                required></textarea>
+                            <span class="p-2 span__info">Message</span>
+                        </div>
+                    </div>
+                    <div class="form__submit">
+                        <input type="submit" class="px-12 py-3 rounded cursor-pointer shadow-lg font-semibold hover:shadow-2xl"
+                            value="Send">
+                    </div>
+
+                    <!-- FormSubmit Settings -->
+                    <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+                <!-- Confetti HTML -->
+                <canvas class="overflow-hidden w-full h-auto absolute top-0 z-0" id="confetti"></canvas>
+        </section>
+    </main>
+
+    <aside class="aside__social show">
+        <p>Find me on</p>
+        <section class="flex flex-col justify-center items-center text-2xl">
+            <a href="https://api.whatsapp.com/send?phone=584262148909" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp py-1"></i>
+            </a>
+            <a href="https://github.com/Simon-M20" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github py-1"></i>
+            </a>
+            <a href="https://www.instagram.com/simon_moreno_/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram py-1"></i>
+            </a>
+            <!-- <a href="https://www.facebook.com/simon.moreno.794" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook py-1"></i>
+            </a> -->
+            <a href="https://t.me/Simon_moreno" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-telegram-plane"></i>
+            </a>
+        </section>
+    </aside>
+
+    <button class="scroll-top" title="Go to top">
+        <span class="material-icons">
+            expand_less
+        </span>
+    </button>
+
+    <footer class="pt-32 footer__info">
+        <h2 class="lg:text-4xl text-3xl font-extrabold tracking-wider relative w-full text-center"><i>🗲</i> Let's Work!  <i>🗲</i></h2>
+        <section class="py-10 md:w-4/5">
+            <p class="text-center leading-relaxed p-2">I am always ready to consider your proporsal. You just need to write to me. If you are not comfortable doing this through a website. then here are the networks that can help you.</p>
+            <p class="text-center leading-relaxed p-2">If you have any kind of project in mind. Feel free to contact with me. I am available for you 24/7.</p>
+            <article class="flex justify-center items-center text-2xl mt-4 lg:hidden block">
+                <a href="https://api.whatsapp.com/send?phone=584262148909" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp py-1 px-3"></i>
+                </a>
+                <a href="https://t.me/Simon_moreno" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-telegram-plane py-1 px-3"></i>
+                </a>
+                <a href="https://www.instagram.com/simon_moreno_/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram py-1 px-3"></i>
+                </a>
+                <a href="https://github.com/Simon-M20" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github py-1 px-3"></i>
+                </a>
+            </article>
+
+        </section>
+        <hr class="w-full">
+        <section class="mx-auto">
+            <p class="text-center text-sm p-4">Simón Moreno 2021 © Todos los derechos reservados</p>
+        </section>
+    </footer>
+
+
+
+    <script type="module" src="Js/main.js"></script>
+</body>
+
+</html>
