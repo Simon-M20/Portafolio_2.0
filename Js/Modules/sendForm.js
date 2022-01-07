@@ -10,7 +10,7 @@ export const sendForm = () => {
     let confetti = new ConfettiGenerator(confettiSettings);
 
     document.addEventListener("submit", e => {
-        e.preventDefault();
+//         e.preventDefault();
         
         if (e.target === form) {
             // console.log(e.target);
