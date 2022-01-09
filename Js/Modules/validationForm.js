@@ -2,7 +2,7 @@ export default function contactFormValidation() {
     const form = document.querySelector("form")
     const input = document.querySelectorAll("form [required]")
 
-    console.log(form,input);
+    // console.log(form,input);
 
     input.forEach(input => {
         const small = document.createElement("small")

@@ -23,6 +23,8 @@
     />
     <!-- SweetAlert.js CDN -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- AOS.js CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body data-dark="">
@@ -62,46 +64,48 @@
     </header>
 
     <main>
-        <section class="md:w-4/5 md:px-0 px-2 mx-auto flex flex-wrap justify-center items-center lg:py-16 pt-24">
-            <article class="lg:w-1/2 lg:text-left text-center">
-                <div class="flex justify-center lg:justify-start items-center">
-                    <span class="span__line mr-3"></span>
-                    <h1 class="lg:text-3xl text-2xl font-semibold main__h1">Hello 👋🏼 Its
-                        <span class="font-bold" style="color: #64ff01;">Simón
-                            Moreno</span>
-                    </h1>
-                </div>
-                <p class="lg:text-5xl text-4xl font-extrabold pt-2">Frontend Developer</p>
-                <p class="pt-2 text-lg">Of course, there's so much more than just a few fancy titles. Scroll
-                    down and get to know me. |
-                </p>
-                <div class="flex flex-wrap justify-center w-full lg:mt-4 mt-5">
-                    <button
-                        class="main__start flex items-center justify-center shadow-md hover:shadow-lg lg:mr-4 mr-0 lg:my-0 my-2">
-                        <a href="#Contact">
-                            <i class="fas fa-mug-hot mr-2"></i>Let's Work Together
-                        </a>
-                    </button>
-                    <button
-                        class="main__button border px-6 py-2 rounded-lg shadow-md hover:shadow-lg relative lg:ml-4 lg:ml-0 lg:my-0 my-2">
-                        <span class="flex h-3 w-3 absolute -right-1 -top-1.5">
-                            <span
-                                class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
-                            <span class="relative inline-flex rounded-full h-3 w-3"></span>
-                        </span>
-                        <a href="#Portafolio">
-                            View my
-                            Portafolio
-                        </a>
-                    </button>
-                </div>
-            </article>
-            <figure class="lg:w-1/2 lg:p-10 p-12">
-                <img src="Img/Developer.svg" alt="Developer" loading="lazy">
-            </figure>
+        <section class="w-full bg-main" data-dark="">
+            <section class="md:w-4/5 md:px-0 px-2 mx-auto flex flex-wrap justify-center items-center lg:py-16 pt-24" data-aos="fade-left">
+                <article class="lg:w-1/2 lg:text-left text-center">
+                    <div class="flex justify-center lg:justify-start items-center">
+                        <span class="span__line mr-3"></span>
+                        <h1 class="lg:text-3xl text-2xl font-semibold main__h1">Hello 👋🏼 Its
+                            <span class="font-bold" style="color: #64ff01;">Simón
+                                Moreno</span>
+                        </h1>
+                    </div>
+                    <p class="lg:text-5xl text-4xl font-extrabold pt-2">Frontend Developer</p>
+                    <p class="pt-2 text-lg">Of course, there's so much more than just a few fancy titles. Scroll
+                        down and get to know me. |
+                    </p>
+                    <div class="flex flex-wrap justify-center w-full lg:mt-4 mt-5">
+                        <button
+                            class="main__start flex items-center justify-center shadow-md hover:shadow-lg lg:mr-4 mr-0 lg:my-0 my-2">
+                            <a href="#Contact">
+                                <i class="fas fa-mug-hot mr-2"></i>Let's Work Together
+                            </a>
+                        </button>
+                        <button
+                            class="main__button border px-6 py-2 rounded-lg shadow-md hover:shadow-lg relative lg:ml-4 lg:ml-0 lg:my-0 my-2">
+                            <span class="flex h-3 w-3 absolute -right-1 -top-1.5">
+                                <span
+                                    class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
+                                <span class="relative inline-flex rounded-full h-3 w-3"></span>
+                            </span>
+                            <a href="#Portafolio">
+                                View my
+                                Portafolio
+                            </a>
+                        </button>
+                    </div>
+                </article>
+                <figure class="lg:w-1/2 lg:p-10 p-12">
+                    <img src="Img/Developer.svg" alt="Developer" loading="lazy">
+                </figure>
+            </section>
         </section>
-
-        <section id="why_me_?" class="main__about py-32">
+        
+        <section id="why_me_?" class="main__about py-32" data-aos="fade-up">
             <h2 class="lg:text-4xl text-3xl font-extrabold tracking-wider relative w-full text-center"><i>⚡</i>
                 Why me ?
                 <i>⚡</i>
@@ -127,73 +131,75 @@
             </article>
         </section>
 
-        <section class="main__skills lg:py-24 py-16">
-            <h2 class="lg:text-4xl text-3xl font-extrabold tracking-wider relative w-full text-center">
-                <i>⚡</i> Main Skill's<i>⚡</i>
-            </h2>
-            <article class="flex justify-center flex-wrap items-center mt-16 skillSwiper">
-                <div class="swiper-wrapper">
-                    <figure
-                        class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
-                        <img class="w-1/3" src="Img/HTML.png" alt="HTML" title="HTML ' HyperText Markup Language'" loading="lazy">
-                        <figcaption>
-                            <p class="font-extrabold text-2xl pl-2">HTML</p>
-                            <!-- <p class="hidden">Hyper Text MarkUp Language</p> -->
-                        </figcaption>
-                    </figure>
-                    <figure
-                        class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
-                        <img class="w-1/3" src="Img/CSS.png" alt="CSS" loading="lazy">
-                        <figcaption>
-                            <p class="font-extrabold text-2xl pl-2">CSS</p>
-                            <!-- <p class="hidden">Cascading Style Sheet</p> -->
-                        </figcaption>
-                    </figure>
-                    <figure
-                        class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
-                        <img class="w-1/3" src="Img/JavaScript.png" alt="JavaScript" loading="lazy">
-                        <figcaption>
-                            <p class="font-extrabold text-2xl pl-2">JS</p>
-                            <!-- <p class="hidden">JavaScript</p> -->
-                        </figcaption>
-                    </figure>
-                    <figure
-                        class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
-                        <img class="w-1/3" src="Img/Tailwind.png" alt="Tailwind" loading="lazy">
-                        <figcaption>
-                            <p class="font-extrabold text-2xl pl-2">Tailwind</p>
-                            <!-- <p class="hidden"></p> -->
-                        </figcaption>
-                    </figure>
-                    <figure
-                        class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
-                        <img class="w-1/3" src="Img/Git.png" alt="Git" loading="lazy">
-                        <figcaption>
-                            <p class="font-extrabold text-2xl pl-2">Git</p>
-                            <!-- <p class="hidden"></p> -->
-                        </figcaption>
-                    </figure>
-                    <figure
-                        class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
-                        <img class="w-1/3" src="Img/React.png" alt="React" loading="lazy">
-                        <figcaption>
-                            <p class="font-extrabold text-2xl pl-2">React</p>
-                            <!-- <p class="hidden"></p> -->
-                        </figcaption>
-                    </figure>
-                    <figure
-                        class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
-                        <img class="w-1/3 github" src="Img/Github.png" alt="Github" loading="lazy">
-                        <figcaption>
-                            <p class="font-extrabold text-2xl pl-2">Github</p>
-                            <!-- <p class="hidden"></p> -->
-                        </figcaption>
-                    </figure>
-                </div>
-            </article>
+        <section class="w-full bg-main lg:py-24 py-16 main__skills" data-dark="" data-aos="fade-up">
+            <section class="w-4/5">
+                <h2 class="lg:text-4xl text-3xl font-extrabold tracking-wider relative w-full text-center">
+                    <i>⚡</i> Main Skill's<i>⚡</i>
+                </h2>
+                <article class="flex justify-center flex-wrap items-center mt-16 skillSwiper">
+                    <div class="swiper-wrapper">
+                        <figure
+                            class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
+                            <img class="w-1/3" src="Img/HTML.png" alt="HTML" title="HTML ' HyperText Markup Language'" loading="lazy">
+                            <figcaption>
+                                <p class="font-extrabold text-2xl pl-2">HTML</p>
+                                <!-- <p class="hidden">Hyper Text MarkUp Language</p> -->
+                            </figcaption>
+                        </figure>
+                        <figure
+                            class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
+                            <img class="w-1/3" src="Img/CSS.png" alt="CSS" loading="lazy">
+                            <figcaption>
+                                <p class="font-extrabold text-2xl pl-2">CSS</p>
+                                <!-- <p class="hidden">Cascading Style Sheet</p> -->
+                            </figcaption>
+                        </figure>
+                        <figure
+                            class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
+                            <img class="w-1/3" src="Img/JavaScript.png" alt="JavaScript" loading="lazy">
+                            <figcaption>
+                                <p class="font-extrabold text-2xl pl-2">JS</p>
+                                <!-- <p class="hidden">JavaScript</p> -->
+                            </figcaption>
+                        </figure>
+                        <figure
+                            class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
+                            <img class="w-1/3" src="Img/Tailwind.png" alt="Tailwind" loading="lazy">
+                            <figcaption>
+                                <p class="font-extrabold text-2xl pl-2">Tailwind</p>
+                                <!-- <p class="hidden"></p> -->
+                            </figcaption>
+                        </figure>
+                        <figure
+                            class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
+                            <img class="w-1/3" src="Img/Git.png" alt="Git" loading="lazy">
+                            <figcaption>
+                                <p class="font-extrabold text-2xl pl-2">Git</p>
+                                <!-- <p class="hidden"></p> -->
+                            </figcaption>
+                        </figure>
+                        <figure
+                            class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
+                            <img class="w-1/3" src="Img/React.png" alt="React" loading="lazy">
+                            <figcaption>
+                                <p class="font-extrabold text-2xl pl-2">React</p>
+                                <!-- <p class="hidden"></p> -->
+                            </figcaption>
+                        </figure>
+                        <figure
+                            class="cursor-pointer rounded-md py-3 flex justify-center items-center swiper-slide">
+                            <img class="w-1/3 github" src="Img/Github.png" alt="Github" loading="lazy">
+                            <figcaption>
+                                <p class="font-extrabold text-2xl pl-2">Github</p>
+                                <!-- <p class="hidden"></p> -->
+                            </figcaption>
+                        </figure>
+                    </div>
+                </article>
+            </section>
         </section>
 
-        <section id="Services" class="main__services py-32">
+        <section id="Services" class="main__services py-32" data-aos="fade-up">
             <h2 class="lg:text-4xl text-3xl font-extrabold tracking-wider relative w-full text-center"><i>⚡</i> Services <i>⚡</i></h2>
             <h3 class="mt-2 text-center text-xl">Better design, better experience</h3>
             <article class="mt-16 flex justify-center mx-auto flex-wrap w-full items-center">
@@ -253,222 +259,224 @@
             </h3>
         </section>
 
-        <section id="Portafolio" class="main__projects py-32">
-            <h2 class="lg:text-4xl text-3xl font-extrabold tracking-wider relative w-full text-center"><i>⚡</i> Portafolio <i>⚡</i></h2>
-            <!-- Slide main container -->
-            <div class="swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
-                        <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">01</p>
-                        <figure class="project-img">
-                            <img class="lightbox__images" src="Img/Sunnyside landing page.jpg" alt="Sunnyside landing page - Project 1" loading="lazy">
-                        </figure>
-        
-                        <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:left-20 top-0 left-0 shadow-lg rounded-md">
-                            <h4 class="text-2xl font-extrabold tracking-wide">Sunnyside agency landing page</h4>
-                            <p class="leading-relaxed pt-2 pb-3">This is a solution to the Sunnyside agency landing page challenge on <span style="color: #64ff01;">Frontend Mentor</span>.</p>
-                            <figure class="flex justify-start items-start">
-                                <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
-                                <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
-                                <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
-                                <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
+        <section id="Portafolio" class="w-full bg-main lg:py-32 py-16 main__projects" data-dark="" data-aos="fade-up">
+            <section class="w-4/5">
+                <h2 class="lg:text-4xl text-3xl font-extrabold tracking-wider relative w-full text-center" data-aos="fade-up"><i>⚡</i> Portafolio <i>⚡</i></h2>
+                <!-- Slide main container -->
+                <div class="swiper" data-aos="fade-up">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
+                            <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">01</p>
+                            <figure class="project-img">
+                                <img class="lightbox__images" src="Img/Sunnyside landing page.jpg" alt="Sunnyside landing page - Project 1" loading="lazy">
                             </figure>
-        
-                            <figure class="relative w-full flex justify-center items-center">
-                                <a href="https://simon-m20.github.io/Sunnyside_agency_landing_page/" target="_blank" rel="noopener noreferrer">
-                                    <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -left-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
-                                        link
-                                    </span>
-                                </a>
-        
-                                <span class="flex h-3 w-3 absolute left-1 top-1 animate-container">
-                                    <span
-                                        class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
-                                    <span class="relative inline-flex rounded-full h-3 w-3"></span>
-                                </span>
-                            </figure>
-                        </div>
-                    </article>
-
-                    <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
-                        <figure class="project-img">
-                            <img class="lightbox__images" src="Img/ecommerce-product-page.jpg" alt="Ecommerce product age - Project 2" loading="lazy">
-                        </figure>
-                        <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">02</p>
-        
-                        <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:right-20 top-0 right-0 shadow-lg rounded-md">
-                            <h4 class="text-2xl font-extrabold tracking-wide">E-commerce product page</h4>
-                            <p class="leading-relaxed pt-2 pb-3">This is a solution to the E-commerce product page challenge on <span style="color: #64ff01;">Frontend Mentor</span>.</p>
-                            <figure class="flex justify-start items-start">
-                                <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
-                                <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
-                                <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
-                                <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
-                            </figure>
-        
-                            <figure class="relative w-full flex justify-center items-center">
-                                <a href="https://simon-m20.github.io/E-commerce_product_page/" target="_blank">
-                                    <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -right-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
-                                        link
-                                    </span>
-                                </a>
-        
-                                <span class="flex h-3 w-3 absolute -right-10 top-1 animate-container">
-                                    <span
-                                        class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
-                                    <span class="relative inline-flex rounded-full h-3 w-3"></span>
-                                </span>
-                            </figure>
-                        </div>
-                    </article>
-
-                    <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
-                        <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">03</p>
-                        <figure class="project-img">
-                            <img class="lightbox__images" src="Img/easybank-page.jpg" alt="Easybank landing page - Project 3" loading="lazy">
-                        </figure>
-        
-                        <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:left-20 top-0 left-0 shadow-lg rounded-md">
-                            <h4 class="text-2xl font-extrabold tracking-wide">Easybank landing page</h4>
-                            <p class="leading-relaxed pt-2 pb-3">This is a solution to the Easybank landing page challenge on <span style="color: #64ff01;">Frontend Mentor</span>.</p>
-                            <figure class="flex justify-start items-start">
-                                <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
-                                <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
-                                <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
-                                <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
-                            </figure>
-        
-                            <figure class="relative w-full flex justify-center items-center">
-                                <a href="https://simon-m20.github.io/Easybank/" target="_blank">
-                                    <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -left-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
-                                        link
-                                    </span>
-                                </a>
-        
-                                <span class="flex h-3 w-3 absolute left-1 top-1 animate-container">
-                                    <span
-                                        class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
-                                    <span class="relative inline-flex rounded-full h-3 w-3"></span>
-                                </span>
-                            </figure>
-                        </div>
-                    </article>
-
-                    <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
-                        <figure class="project-img">
-                            <img class="lightbox__images" src="Img/Crowdfunding-product-page.jpg" alt="Crowdfunding product page - Project 4" loading="lazy">
-                        </figure>
-                        <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">04</p>
-        
-                        <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:right-20 top-0 right-0 shadow-lg rounded-md">
-                            <h4 class="text-2xl font-extrabold tracking-wide">Crowdfunding product page</h4>
-                            <p class="leading-relaxed pt-2 pb-3">This is a solution to the Crowdfunding product page challenge on <span style="color: #64ff01;">Frontend Mentor</span>.</p>
-                            <figure class="flex justify-start items-start">
-                                <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
-                                <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
-                                <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
-                                <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
-                            </figure>
-        
-                            <figure class="relative w-full flex justify-center items-center">
-                                <a href="https://simon-m20.github.io/Crowdfunding-product-page-main/" target="_blank" rel="noopener noreferrer">
-                                    <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -right-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
-                                        link
-                                    </span>
-                                </a>
-        
-                                <span class="flex h-3 w-3 absolute -right-10 top-1 animate-container">
-                                    <span
-                                        class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
-                                    <span class="relative inline-flex rounded-full h-3 w-3"></span>
-                                </span>
-                            </figure>
-                        </div>
-                    </article>
-
-                    <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
-                        <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">05</p>
-                        <figure class="project-img">
-                            <img class="lightbox__images" src="Img/time-tracking-dashboard.jpg" alt="Time tracking dashboard - Project 5" loading="lazy">
-                        </figure>
-        
-                        <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:left-20 top-0 left-0 shadow-lg rounded-md">
-                            <h4 class="text-2xl font-extrabold tracking-wide">Time tracking dashboard</h4>
-                            <p class="leading-relaxed pt-2 pb-3">This is a solution to the Time tracking dashboard challenge on <span style="color: #64ff01;">Frontend Mentor</span>.</p>
-                            <figure class="flex justify-start items-start">
-                                <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
-                                <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
-                                <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
-                                <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
-                                <img class="w-10 mx-1" src="Img/Json.png" alt="Json icon" title="Json" loading="lazy">
-                            </figure>
-        
-                            <figure class="relative w-full flex justify-center items-center">
-                                <a href="https://simon-m20.github.io/Time_tracking_dashboard/" target="_blank">
-                                    <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -left-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
-                                        link
-                                    </span>
-                                </a>
-        
-                                <span class="flex h-3 w-3 absolute left-1 top-1 animate-container">
-                                    <span
-                                        class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
-                                    <span class="relative inline-flex rounded-full h-3 w-3"></span>
-                                </span>
-                            </figure>
-                        </div>
-                    </article>
-
-                    <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
-                        <figure class="project-img">
-                            <img class="lightbox__images" src="Img/Pixtel.png" alt="Pixtel - Project 6" loading="lazy">
-                        </figure>
-                        <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">06</p>
-        
-                        <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:right-20 top-0 right-0 shadow-lg rounded-md">
-                            <h4 class="text-2xl font-extrabold tracking-wide">Pixtel Digital communication service</h4>
-                            <p class="leading-relaxed pt-2 pb-3">Pixtel, a digital marketing agency that takes you to the next level.</p>
-                            <figure class="flex justify-start items-start">
-                                <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
-                                <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
-                                <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
-                                <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
-                            </figure>
-        
-                            <figure class="relative w-full flex justify-center items-center">
-                                <a href="https://simon-m20.github.io/Pixtel_2.0/" target="_blank" rel="noopener noreferrer">
-                                    <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -right-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
-                                        link
-                                    </span>
-                                </a>
-        
-                                <span class="flex h-3 w-3 absolute -right-10 top-1 animate-container">
-                                    <span
-                                        class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
-                                    <span class="relative inline-flex rounded-full h-3 w-3"></span>
-                                </span>
-                            </figure>
-                        </div>
-                    </article>
-
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-            </div>
-
-             <!-- Lightbox effect -->
-             <div id="lightbox" class="lightbox">
-                <figure class="lightbox__figure">
-                    <img class="lightbox__img" src="" alt="" loading="lazy">
-                </figure>
-                <i class="fas fa-times text-2xl lightbox__icon"></i>
-            </div>
             
+                            <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:left-20 top-0 left-0 shadow-lg rounded-md">
+                                <h4 class="text-2xl font-extrabold tracking-wide">Sunnyside agency landing page</h4>
+                                <p class="leading-relaxed pt-2 pb-3">This is a solution to the Sunnyside agency landing page challenge on <span style="color: #64ff01;">Frontend Mentor</span>.</p>
+                                <figure class="flex justify-start items-start">
+                                    <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
+                                    <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
+                                    <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
+                                    <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
+                                </figure>
+            
+                                <figure class="relative w-full flex justify-center items-center">
+                                    <a href="https://simon-m20.github.io/Sunnyside_agency_landing_page/" target="_blank" rel="noopener noreferrer">
+                                        <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -left-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
+                                            link
+                                        </span>
+                                    </a>
+            
+                                    <span class="flex h-3 w-3 absolute left-1 top-1 animate-container">
+                                        <span
+                                            class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
+                                        <span class="relative inline-flex rounded-full h-3 w-3"></span>
+                                    </span>
+                                </figure>
+                            </div>
+                        </article>
+    
+                        <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
+                            <figure class="project-img">
+                                <img class="lightbox__images" src="Img/ecommerce-product-page.jpg" alt="Ecommerce product age - Project 2" loading="lazy">
+                            </figure>
+                            <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">02</p>
+            
+                            <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:right-20 top-0 right-0 shadow-lg rounded-md">
+                                <h4 class="text-2xl font-extrabold tracking-wide">E-commerce product page</h4>
+                                <p class="leading-relaxed pt-2 pb-3">This is a solution to the E-commerce product page challenge on <span style="color: #64ff01;">Frontend Mentor</span>.</p>
+                                <figure class="flex justify-start items-start">
+                                    <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
+                                    <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
+                                    <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
+                                    <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
+                                </figure>
+            
+                                <figure class="relative w-full flex justify-center items-center">
+                                    <a href="https://simon-m20.github.io/E-commerce_product_page/" target="_blank">
+                                        <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -right-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
+                                            link
+                                        </span>
+                                    </a>
+            
+                                    <span class="flex h-3 w-3 absolute -right-10 top-1 animate-container">
+                                        <span
+                                            class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
+                                        <span class="relative inline-flex rounded-full h-3 w-3"></span>
+                                    </span>
+                                </figure>
+                            </div>
+                        </article>
+    
+                        <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
+                            <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">03</p>
+                            <figure class="project-img">
+                                <img class="lightbox__images" src="Img/easybank-page.jpg" alt="Easybank landing page - Project 3" loading="lazy">
+                            </figure>
+            
+                            <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:left-20 top-0 left-0 shadow-lg rounded-md">
+                                <h4 class="text-2xl font-extrabold tracking-wide">Easybank landing page</h4>
+                                <p class="leading-relaxed pt-2 pb-3">This is a solution to the Easybank landing page challenge on <span style="color: #64ff01;">Frontend Mentor</span>.</p>
+                                <figure class="flex justify-start items-start">
+                                    <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
+                                    <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
+                                    <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
+                                    <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
+                                </figure>
+            
+                                <figure class="relative w-full flex justify-center items-center">
+                                    <a href="https://simon-m20.github.io/Easybank/" target="_blank">
+                                        <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -left-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
+                                            link
+                                        </span>
+                                    </a>
+            
+                                    <span class="flex h-3 w-3 absolute left-1 top-1 animate-container">
+                                        <span
+                                            class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
+                                        <span class="relative inline-flex rounded-full h-3 w-3"></span>
+                                    </span>
+                                </figure>
+                            </div>
+                        </article>
+    
+                        <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
+                            <figure class="project-img">
+                                <img class="lightbox__images" src="Img/Crowdfunding-product-page.jpg" alt="Crowdfunding product page - Project 4" loading="lazy">
+                            </figure>
+                            <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">04</p>
+            
+                            <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:right-20 top-0 right-0 shadow-lg rounded-md">
+                                <h4 class="text-2xl font-extrabold tracking-wide">Crowdfunding product page</h4>
+                                <p class="leading-relaxed pt-2 pb-3">This is a solution to the Crowdfunding product page challenge on <span style="color: #64ff01;">Frontend Mentor</span>.</p>
+                                <figure class="flex justify-start items-start">
+                                    <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
+                                    <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
+                                    <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
+                                    <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
+                                </figure>
+            
+                                <figure class="relative w-full flex justify-center items-center">
+                                    <a href="https://simon-m20.github.io/Crowdfunding-product-page-main/" target="_blank" rel="noopener noreferrer">
+                                        <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -right-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
+                                            link
+                                        </span>
+                                    </a>
+            
+                                    <span class="flex h-3 w-3 absolute -right-10 top-1 animate-container">
+                                        <span
+                                            class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
+                                        <span class="relative inline-flex rounded-full h-3 w-3"></span>
+                                    </span>
+                                </figure>
+                            </div>
+                        </article>
+    
+                        <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
+                            <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">05</p>
+                            <figure class="project-img">
+                                <img class="lightbox__images" src="Img/time-tracking-dashboard.jpg" alt="Time tracking dashboard - Project 5" loading="lazy">
+                            </figure>
+            
+                            <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:left-20 top-0 left-0 shadow-lg rounded-md">
+                                <h4 class="text-2xl font-extrabold tracking-wide">Time tracking dashboard</h4>
+                                <p class="leading-relaxed pt-2 pb-3">This is a solution to the Time tracking dashboard challenge on <span style="color: #64ff01;">Frontend Mentor</span>.</p>
+                                <figure class="flex justify-start items-start">
+                                    <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
+                                    <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
+                                    <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
+                                    <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
+                                    <img class="w-10 mx-1" src="Img/Json.png" alt="Json icon" title="Json" loading="lazy">
+                                </figure>
+            
+                                <figure class="relative w-full flex justify-center items-center">
+                                    <a href="https://simon-m20.github.io/Time_tracking_dashboard/" target="_blank">
+                                        <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -left-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
+                                            link
+                                        </span>
+                                    </a>
+            
+                                    <span class="flex h-3 w-3 absolute left-1 top-1 animate-container">
+                                        <span
+                                            class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
+                                        <span class="relative inline-flex rounded-full h-3 w-3"></span>
+                                    </span>
+                                </figure>
+                            </div>
+                        </article>
+    
+                        <article class="flex flex-wrap justify-center md:justify-between items-start w-full relative mt-4 md:mt-16 mt-12 swiper-slide">
+                            <figure class="project-img">
+                                <img class="lightbox__images" src="Img/Pixtel.png" alt="Pixtel - Project 6" loading="lazy">
+                            </figure>
+                            <p class="md:text-9xl text-7xl md:m-0 m-3 font-extrabold">06</p>
+            
+                            <div data-dark="" class="md:absolute relative flex justify-start items-start flex-col md:w-3/5 w-11/12 slide-info px-6 pt-6 pb-6 md:top-24 md:right-20 top-0 right-0 shadow-lg rounded-md">
+                                <h4 class="text-2xl font-extrabold tracking-wide">Pixtel Digital communication service</h4>
+                                <p class="leading-relaxed pt-2 pb-3">Pixtel, a digital marketing agency that takes you to the next level.</p>
+                                <figure class="flex justify-start items-start">
+                                    <img class="w-10 mx-1" src="Img/HTML.png" alt="HTML icon" title="HTML5" loading="lazy">
+                                    <img class="w-10 mx-1" src="Img/CSS.png" alt="CSS icon" title="CSS3" loading="lazy">
+                                    <img class="w-10 mx-1" src="Img/JavaScript.png" alt="JavaScript icon" title="JavaScript">
+                                    <img class="w-10 mx-1 github" src="Img/Github.png" alt="Github icon" title="Github" loading="lazy">
+                                </figure>
+            
+                                <figure class="relative w-full flex justify-center items-center">
+                                    <a href="https://simon-m20.github.io/Pixtel_2.0/" target="_blank" rel="noopener noreferrer">
+                                        <span data-dark="" class="material-icons absolute w-14 h-14 rounded-lg flex justify-center items-center -right-10 top-1 shadow-xl hover:shadow-2xl link-icon cursor-pointer">
+                                            link
+                                        </span>
+                                    </a>
+            
+                                    <span class="flex h-3 w-3 absolute -right-10 top-1 animate-container">
+                                        <span
+                                            class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"></span>
+                                        <span class="relative inline-flex rounded-full h-3 w-3"></span>
+                                    </span>
+                                </figure>
+                            </div>
+                        </article>
+    
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+    
+                 <!-- Lightbox effect -->
+                 <div id="lightbox" class="lightbox">
+                    <figure class="lightbox__figure">
+                        <img class="lightbox__img" src="" alt="" loading="lazy">
+                    </figure>
+                    <i class="fas fa-times text-2xl lightbox__icon"></i>
+                </div>
+                
+            </section>
         </section>
 
-        <section id="Contact" class="main__contact py-32 relative">
+        <section id="Contact" class="main__contact py-32 relative" data-aos="fade-up">
             <h2 class="lg:text-4xl text-3xl font-extrabold tracking-wider relative w-full text-center"><i>⚡</i> Contact <i>⚡</i></h2>
 
             <form action="https://formsubmit.co/saimonm0504@gmail.com" method="POST"
@@ -525,7 +533,7 @@
         </section>
     </main>
 
-    <aside class="aside__social show">
+    <aside class="aside__social show" data-aos="fade-right">
         <p>Find me on</p>
         <section class="flex flex-col justify-center items-center text-2xl">
             <a href="https://api.whatsapp.com/send?phone=584262148909" target="_blank" rel="noopener noreferrer">
@@ -552,7 +560,7 @@
         </span>
     </button>
 
-    <footer class="pt-32 footer__info">
+    <footer class="pt-32 footer__info" data-aos="fade-up">
         <h2 class="lg:text-4xl text-3xl font-extrabold tracking-wider relative w-full text-center"><i>⚡</i> Let's Work!  <i>⚡</i></h2>
         <section class="py-10 md:w-4/5">
             <p class="text-center leading-relaxed p-2">I am always ready to consider your proporsal. You just need to write to me. If you are not comfortable doing this through a website. then here are the networks that can help you.</p>
@@ -579,9 +587,10 @@
         </section>
     </footer>
 
-
-
+    <!-- AOS.js CDN -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script type="module" src="Js/main.js"></script>
+    
 </body>
 
 </html>
