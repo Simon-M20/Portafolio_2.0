@@ -10,7 +10,7 @@ export const sendForm = () => {
     let confetti = new ConfettiGenerator(confettiSettings);
 
     document.addEventListener("submit", e => {
-//         e.preventDefault();
+        // e.preventDefault();
         
         if (e.target === form) {
             // console.log(e.target);
@@ -21,6 +21,6 @@ export const sendForm = () => {
             swal("Great!", "You send me a message!", "success");
         }
 
-        form.reset();
+        // form.reset();
     })
 }

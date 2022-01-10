@@ -56,7 +56,7 @@ body {
 }
 
 body.dark-mode {
-    background-color: #020202;
+    background-color: #0F0E0E;
     color: #fff;
 }
 
@@ -254,6 +254,15 @@ button.main__button > span > span, .main__projects article div figure span.anima
     color: #0088cc;
 }
 
+.bg-main, footer {
+    background-color: #f6f6f6;
+    /* background-color: #C4FB6D; */
+}
+
+.bg-main.dark-mode, footer.dark-mode {
+    background-color: #191919;
+}
+
 .main__about, .main__skills, .main__services, .main__projects, .main__contact, .footer__info {
     position: relative;
     display: flex;
@@ -345,16 +354,16 @@ button.main__button > span > span, .main__projects article div figure span.anima
 }
 
 .main__services figure p.content {
-    transition: all .2s ease-in;
+    /* transition: all .2s ease-in; */
     /* display: none; */
     height: 0px;
-    transition: all .2s ease-in;
+    transition: all .5s ease-in;
     transform: translateY(-200%);
     opacity: 0;
     visibility: hidden;
 }
 
-.main__services figure p.content.is-active {
+.main__services figure:hover p.content {
     height: 150px;
     transform: translateY(0);
     opacity: 1;
@@ -747,10 +756,9 @@ small#message {
         transform: rotate(-90deg);
     }
 
-    .main__about, .main__skills, .main__services, .main__projects, .main__contact {
+    /* .main__about, .main__skills, .main__services, .main__projects, .main__contact {
         width: 80%;
-        /* padding: 0; */
-    }
+    } */
 
     .main__about h2::before, .main__skills h2::before, .main__services h2::before, .main__projects h2::before, .main__contact h2::before, .footer__info h2::before {
         font-size: 6rem;
