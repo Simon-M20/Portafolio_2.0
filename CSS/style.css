@@ -231,7 +231,7 @@ button.main__button > span > span, .main__projects article div figure span.anima
     transform: translateX(-50%);
 }
 
-.fa-whatsapp, .fa-github, .fa-instagram, .fa-telegram-plane {
+.fa-whatsapp, .fa-github, .fa-instagram, .fa-telegram-plane, .fa-linkedin {
     transition: all .2s ease-in;
 } 
 
@@ -252,6 +252,11 @@ button.main__button > span > span, .main__projects article div figure span.anima
 
 .fa-telegram-plane:hover {
     color: #0088cc;
+}
+
+.fa-linkedin:hover {
+    color: #0e76a8;
+    cursor: pointer;
 }
 
 .bg-main, footer {
